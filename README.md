@@ -54,5 +54,5 @@ php artisan make:model Name -mc
 
 ### Make a Model with migration and Resourceful Controller
 ```php
-php artisan make:model Name -mc
+php artisan make:model Name -mcr
 ```
