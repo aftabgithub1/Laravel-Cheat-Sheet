@@ -1,3 +1,4 @@
+# Terminal Command
 ## Installing Laravel
 
 ### Via Laravel Installer
@@ -26,4 +27,31 @@ composer
 If you have PHP installed locally and you would like to use PHP's built-in development server to serve your application, you may use the serve Artisan command. This command will start a development server at http://localhost:8000:
 ```php
 php artisan serve
+```
+
+### Make a Model with migration
+```php
+php artisan make:model Name -m
+```
+
+### Make a Controller
+```php
+php artisan make:controller NameController
+```
+
+### Make a Resourceful Controller
+```php
+php artisan make:controller NameController -resource
+// or
+php artisan make:controller NameController -r
+```
+
+### Make a Model with migration and Controller
+```php
+php artisan make:model Name -mc
+```
+
+### Make a Model with migration and Resourceful Controller
+```php
+php artisan make:model Name -mc
 ```
