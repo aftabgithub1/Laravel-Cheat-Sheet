@@ -1,4 +1,4 @@
-# Terminal Command
+# Lravel Terminal Commands
 ## Installing Laravel
 
 ### Via Laravel Installer
@@ -29,6 +29,7 @@ If you have PHP installed locally and you would like to use PHP's built-in devel
 php artisan serve
 ```
 
+## Project Commands
 ### Make a Model with migration
 ```php
 php artisan make:model Name -m
