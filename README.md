@@ -56,3 +56,18 @@ php artisan make:model Name -mc
 ```php
 php artisan make:model Name -mcr
 ```
+
+### Install Laravel User Interface
+```php
+php artisan laravel/ui
+```
+
+### Install Bootstrap
+```php
+php artisan ui bootstrap
+```
+
+### Install Bootstrap with Auth
+```php
+php artisan ui bootstrap
+```
