@@ -69,5 +69,5 @@ php artisan ui bootstrap
 
 ### Install Bootstrap with Auth
 ```php
-php artisan ui bootstrap
+php artisan ui bootstrap --auth
 ```
