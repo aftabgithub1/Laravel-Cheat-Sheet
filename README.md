@@ -1,4 +1,4 @@
-# Lravel Terminal Commands
+# Laravel Terminal Commands
 ## Installing Laravel
 
 ### Via Laravel Installer
