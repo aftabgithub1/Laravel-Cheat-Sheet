@@ -57,17 +57,28 @@ php artisan make:model Name -mc
 php artisan make:model Name -mcr
 ```
 
-### Install Laravel User Interface
+### Install Laravel User Interface for Bootstrap 4
+It's very simple way to install Bootstrap 4 using laravel ui composer package. laravel ui package add laravel 8 support.
 ```php
-php artisan laravel/ui
+composer require laravel/ui
 ```
 
-### Install Bootstrap
+### Install Bootstrap 4
+After successfully install above package then we are ready to install bootstrap 4 with our application.
 ```php
 php artisan ui bootstrap
 ```
-
-### Install Bootstrap with Auth
+We can install two way, one is a simple bootstrap 4 setup install and another is install bootstrap 4 with auth. So let's see both way.
 ```php
 php artisan ui bootstrap --auth
+```
+
+### Install NPM
+You also need to install npm and run it.
+```php
+npm install
+```
+Run NPM
+```php
+npm run dev
 ```
